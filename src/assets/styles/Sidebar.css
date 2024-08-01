@@ -1,0 +1,24 @@
+.sidebar {
+    width: 8%;
+    background-color: #9A9DD9;
+    color: #050726;
+    padding: 1%;
+    height: calc(120vh - 120px); /* Ajusta la altura según la altura del header y footer */
+    position: fixed;
+    top:0px;
+    border-right: 1px solid #efefef;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin: 10px 0;
+  }
+  
+  .sidebar nav ul li a {
+    color: #050726; 
+    text-decoration: none;
+  }
